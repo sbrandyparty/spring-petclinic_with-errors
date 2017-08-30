@@ -121,13 +121,6 @@ public class Owner extends Person {
                 String compName = pet.getName();
                 compName = compName.toLowerCase();
                 if (compName.equals(name)) {
-                    //Brandyparty
-                    //takeTooLong
-                    try {
-                        Thread.sleep(9000000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
                     return pet;
                 }
             }
